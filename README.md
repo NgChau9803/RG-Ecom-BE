@@ -10,11 +10,11 @@ This project will run on **NodeJs** using **MongoDB** as database. I had tried t
 
 ## Features
 
-- Basic Authentication (Register/Login with hashed password)
-- JWT Tokens, make requests with a token after login with `Authorization` header with value `Bearer yourToken` where `yourToken` will be returned in Login response.
+- Google OAuth Authentication (Sign in with Google)
+- JWT Tokens, make requests with a token after login with `Authorization` header with value `Bearer yourToken` where `yourToken` will be returned in the OAuth callback.
 - Pre-defined response structures with proper status codes.
 - Included CORS.
-- **Book** example with **CRUD** operations.
+- E-commerce models (User, Product, Order, etc.)
 - Validations added.
 - Light-weight project.
 
